@@ -1,0 +1,19 @@
+.category_page_container{
+  min-height: 90vh !important;
+}
+
+.category_banner_container{
+  height: 200px !important;  
+  background-color: rgb(4, 18, 65) !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  color: #fff !important;
+}
+.filters_container input{
+  font-size: 16px !important;
+  font-weight: 500 !important;
+  outline: none !important;
+  border-radius: 4px !important;
+  padding: 10px 20px !important;
+}

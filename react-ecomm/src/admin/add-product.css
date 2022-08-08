@@ -1,0 +1,109 @@
+.new_prodcut_conatiner{
+    width: 500px;
+   background-image: url('../images/shop.png');
+   background-size: 100% ;
+   background-position: center;
+   height: 90vh;
+   background-repeat: no-repeat;
+   object-fit: cover;
+}
+
+.edit_prodcut_conatiner{
+    width: 500px;
+   background-image: url('../images/shopping-new.png');
+   background-size: 100% ;
+   background-position: center;
+   height: 90vh;
+   background-repeat: no-repeat;
+   object-fit: cover;
+}
+
+.para{
+    font-size: 20px !important;
+    color: gray !important;
+}
+.para_link{
+    text-decoration: none;
+    margin-left: 10px !important;  
+    color: #182de6;
+}
+.add_form{
+    height: 100vh;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  
+  
+  .input{
+      /* width: 100% !important; */
+      padding: 10px 20px !important;
+      color: #000 !important;
+      font-size: 16px !important;
+      font-weight: 500;
+  }
+  
+  .input:focus{
+      outline: none !important;
+  }
+  .add_btn{
+      width: 74%;
+      border: none !important;
+      outline: none !important;
+      padding: 10px 20px !important;
+      background-color: tomato !important;
+      margin-top: 10px !important ;
+      font-size: 18px !important; 
+      font-weight: bold !important;
+      margin-bottom: 20px;
+  }
+  
+  .para{
+      font-size: 20px !important;
+      color: gray !important;
+  }
+  .para_link{
+      text-decoration: none;
+      margin-left: 10px !important;  
+      color: #182de6;
+  }
+
+.image_preview_container{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(min(100px, 100%), 1fr));
+   gap: 10px !important;
+   margin-top: 40px !important;
+}
+
+
+.image_preview{
+  width: 100px !important;
+  display: inline-block !important;
+  position: relative;
+}
+
+.image_preview img{
+    width: 100% !important;
+    height: 100px !important;
+    object-fit: cover;
+    border-radius: 10px !important;
+
+}
+
+.image_preview .icon, .remove_img_spinner{
+    position:absolute;
+    top: -8px !important;
+    left: -8px !important;
+    font-size: 12px !important;
+    border-radius: 50% !important;
+    background-color: rgb(7, 19, 19);
+    color: #fff !important;
+    padding: 2px 4px !important;
+    cursor: pointer;
+}
+
+.image_preview .icon:hover{
+    color: rgb(248, 106, 81);
+}

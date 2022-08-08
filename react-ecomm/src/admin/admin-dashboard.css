@@ -1,0 +1,11 @@
+.admin_links{
+    font-size:12px !important;
+    font-weight: bold !important;
+    color: #5800FF !important;
+}
+
+.dashboard_img_preview{
+    width: 80px !important;
+    height: 80px !important;
+    object-fit: cover;
+}

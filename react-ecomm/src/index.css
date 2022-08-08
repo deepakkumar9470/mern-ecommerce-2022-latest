@@ -1,0 +1,69 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+	--nav-color:#143F6B;
+	
+}
+body{
+  font-family: 'Nunito', sans-serif;
+  background: #faf9f9 !important;
+  overflow-x: hidden;
+}
+
+
+.header_bg_img{
+
+}
+
+.c_img{
+  width: 100% !important;
+  height: 350px !important;
+}
+
+.nav-link{
+	list-style: none !important;
+  text-transform: uppercase !important;
+	font-weight: 500 !important;
+  transition: all 0.3s ease !important;
+  color: #fff !important;
+}
+.nav-link:hover{
+  color: #FEB139;
+}
+.nav-link-prod{
+  text-decoration: none;
+  list-style: none;
+	color: #000;
+}
+.nav-link-prod:hover{
+  color: rgb(44, 40, 40);
+}
+
+
+.prodname{
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: left;
+}
+
+.card{
+
+}
+
+.login_form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login_form input{
+  width: 400px;
+}
